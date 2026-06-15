@@ -1,0 +1,23 @@
+{
+  "skill_name": "code-dev-habits",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "熟悉下本项目吧",
+      "expected_output": "探索项目结构、读取核心文件、生成项目概况总结；如果识别到待完善点，应生成或更新 todo.md；向用户汇报项目技术栈、核心模块和后续建议。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "分析下这个代码库，整理下项目文档",
+      "expected_output": "系统分析代码库架构和核心流程，识别待完善点并记录到 todo.md；检查 README.md / CLAUDE.md / API.md 是否需要更新，并根据代码现状进行更新。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "更新下 readme 和 CLAUDE 文档，然后上传 github",
+      "expected_output": "根据当前代码变更更新 README.md 和 CLAUDE.md；执行 git add / commit / push 将变更推送到 GitHub；汇报推送结果和 commit 信息。",
+      "files": []
+    }
+  ]
+}

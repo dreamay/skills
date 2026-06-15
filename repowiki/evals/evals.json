@@ -1,0 +1,23 @@
+{
+  "skill_name": "repowiki",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "在 /tmp/repowiki-iter2-project-overview/ 下为当前项目（SQL Parser By LLM，工作目录 /Users/dreamsong/code/s0812/sqlparserbyllm）生成 RepoWiki 的“项目概述”目录。要求：1) 创建临时项目副本（至少包含 README.md、pom.xml、src/main/java/com/sqlparser 下的核心源码、src/main/resources/application.yml、API.md）；2) 按照 repowiki 规范生成 .repowiki/zh/content/项目概述/ 目录，包含 项目概述.md 聚合主文档和 4-6 个子文档（必须包括：项目介绍.md、技术架构概览.md、核心特性.md、应用场景.md）；3) 所有文档必须遵循统一模板（cite 引用块、目录、简介、项目结构、核心组件、架构总览、详细组件分析、依赖分析、性能考虑、故障排查指南、结论、附录），并包含 Mermaid 图表及独立图表来源、章节来源；4) 将最终生成的 .repowiki 目录完整复制到 /Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-project-overview/with_skill/outputs/。",
+      "expected_output": "/Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-project-overview/with_skill/outputs/ 下包含 .repowiki/zh/content/项目概述/ 目录，其中有 项目概述.md 和 4-6 个子文档，文档结构规范、引用正确。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "在 /tmp/repowiki-iter2-core-arch/ 下为当前项目（SQL Parser By LLM，工作目录 /Users/dreamsong/code/s0812/sqlparserbyllm）生成 RepoWiki 的“核心架构设计”目录。要求：1) 创建临时项目副本（至少包含 README.md、src/main/java/com/sqlparser/service/SqlParseService.java、LegacyEngineClient.java、LlmVerifyService.java、LlmClient.java、SqlComplexityChecker.java、SqlParseController.java、ParseRequest.java、ParseResponse.java、application.yml）；2) 按照 repowiki 规范生成 .repowiki/zh/content/核心架构设计/ 目录，包含 核心架构设计.md 聚合主文档和 4-6 个子文档（必须包括：服务编排层.md、LLM集成层.md、传统引擎客户端.md、复杂度检查器.md）；3) 所有文档必须遵循统一模板，包含 Mermaid 图表（graph TB、sequenceDiagram、flowchart TD、classDiagram）及独立图表来源、章节来源；4) 将最终生成的 .repowiki 目录完整复制到 /Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-core-architecture/with_skill/outputs/。",
+      "expected_output": "/Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-core-architecture/with_skill/outputs/ 下包含 .repowiki/zh/content/核心架构设计/ 目录，其中有 核心架构设计.md 和 4-6 个子文档，文档结构规范、引用正确。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "在 /tmp/repowiki-iter2-api/ 下为当前项目（SQL Parser By LLM，工作目录 /Users/dreamsong/code/s0812/sqlparserbyllm）生成 RepoWiki 的“API参考文档”目录。要求：1) 创建临时项目副本（至少包含 README.md、API.md、src/main/java/com/sqlparser/controller/SqlParseController.java、src/main/java/com/sqlparser/model/ParseRequest.java、src/main/java/com/sqlparser/model/ParseResponse.java、src/main/java/com/sqlparser/model/LineageTable.java、src/main/java/com/sqlparser/model/ColumnLineage.java、src/main/java/com/sqlparser/model/SourceTableModel.java、src/main/java/com/sqlparser/model/OtherSourceTable.java、src/main/java/com/sqlparser/model/LlmCorrectionDetail.java、src/main/resources/application.yml）；2) 按照 repowiki 规范生成 .repowiki/zh/content/API参考文档/ 目录，包含 API参考文档.md 聚合主文档和 5-6 个子文档（必须包括：核心接口.md、传统引擎接口.md、LLM直调接口.md、健康检查接口.md、响应格式规范.md、数据模型说明.md）；3) 所有文档必须遵循统一模板，包含 Mermaid 图表（classDiagram、erDiagram、sequenceDiagram）及独立图表来源、章节来源；4) 将最终生成的 .repowiki 目录完整复制到 /Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-api-reference/with_skill/outputs/。",
+      "expected_output": "/Users/dreamsong/.claude/skills/repowiki-workspace/iteration-2/eval-api-reference/with_skill/outputs/ 下包含 .repowiki/zh/content/API参考文档/ 目录，其中有 API参考文档.md 和 5-6 个子文档，文档结构规范、引用正确。",
+      "files": []
+    }
+  ]
+}
