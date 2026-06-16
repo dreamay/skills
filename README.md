@@ -12,6 +12,10 @@
 
 通用的 Obsidian 知识库管理技能，支持任意路径、任意 Vault。当用户提到"知识库"、"知识卡片"、"读书笔记"、"同步知识库"、"Obsidian"等时触发。支持首次自动初始化完整 Vault 结构，生成知识卡片、读书笔记、技术文章、周报等多种类型笔记，并维护 MOC 索引和标签体系。
 
+### obsidian-llm-wiki — LLM Wiki 知识库管理
+
+AI 驱动的三层架构知识库管理技能（inbox → wiki → schema），是 obsidian-vault 的进阶版本。采用 inbox 收集、wiki 结构化知识、schema 指令层的分离设计，支持概念卡片、对比分析、综述、读书笔记、实体档案等多种笔记类型，通过 INDEX.md 和 CHANGELOG.md 自动维护知识库索引与变更日志。
+
 ### repowiki — 项目文档集生成
 
 为任意代码项目生成结构化、可维护的 RepoWiki 文档集。当用户提到"repowiki"、"项目 wiki"、"生成项目文档"等时触发。输出包含项目概述、核心架构、数据模型、API 文档、配置管理、扩展开发、监控运维等多个维度的 Markdown 文档，所有文档遵循统一模板、Mermaid 图表规范和源码引用标注。
@@ -26,6 +30,10 @@ skills/
 │       └── evals.json        # 评估用例
 ├── obsidian-vault/
 │   ├── SKILL.md              # 技能定义
+│   ├── reference.md          # 详细规范参考
+│   └── templates.md          # 初始化模板
+├── obsidian-llm-wiki/
+│   ├── SKILL.md              # 技能定义（v3.0 三层架构）
 │   ├── reference.md          # 详细规范参考
 │   └── templates.md          # 初始化模板
 ├── repowiki/
